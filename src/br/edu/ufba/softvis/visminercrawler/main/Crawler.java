@@ -33,12 +33,12 @@ public class Crawler {
 		metrics.add(new WMCMetric());
 		metrics.add(new TCCMetric());
 		metrics.add(new NOAMetric());
-		antiPatterns.add(new GodClass());
+		antiPatterns.add(new GodClass(-1, 75, 0.2f, 20));
 		// setup repository
 		Repository repository = new Repository();
 		repository.setDescription("junit");
 		repository.setName("junit");
-		repository.setPath("/home/visminer/desenvolvimento/projects/junit/.git");
+		repository.setPath("F:\\Matheus\\Documents\\Desenvolvimento\\TCC\\projects\\junit\\.git");
 //		repository.setDescription("log4j");
 //		repository.setName("log4j");
 //		repository.setPath("/home/visminer/desenvolvimento/projects/log4j/.git");
